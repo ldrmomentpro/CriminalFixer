@@ -180,8 +180,8 @@ class CrimeFragment : Fragment(), DatePickerFragment.Callbacks, TimePickerFragme
             getString(R.string.crime_report_unsolved)
         }
 
-        val df = DateFormat.getBestDateTimePattern(Locale.FRANCE, DATE_FORMAT)
-        val dateString = df.format(DATE_FORMAT, crime.date)
+        val df = DateFormat.getBestDateTimePattern(Locale.getDefault(), DATE_FORMAT)
+        val dateString = DateFormat.format(df, crime.date).toString()
         val suspect = if (crime.suspect.isBlank()) {
             getString(R.string.crime_report_no_suspect)
         } else {

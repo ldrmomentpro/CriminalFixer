@@ -9,12 +9,12 @@
     <string name="crime_suspect_text">Выбрать подозреваемого</string>
     <string name="crime_report_text">Отправить отчет</string>
     <string name="crime_call_text">Позвонить подозреваемому</string>
-    <string name="crime_report">%1$s!Нарушение было раскрыто на %2$s. %3$s, и %4$s</string>
+    <string name="crime_report">%1$s! Нарушение было обнаружено, дата: %2$s. %3$s, и %4$s</string>
     <string name="crime_report_solved">Дело раскрыто</string>
     <string name="crime_report_unsolved">Дело не раскрыто</string>
     <string name="crime_report_no_suspect">подозреваемого нет.</string>
     <string name="crime_report_suspect">подозреваемый это %s.</string>
-    <string name="crime_report_subject">Нарушения Отчет</string>
+    <string name="crime_report_subject">Отчет о нарушениях</string>
     <string name="send_report">Отправить отчет о нарушении через</string>
     <string name="crime_photo_button_description">Сфотографировать место нарушения</string>
     <string name="crime_photo_no_image_description">Фото с места нарушения (не установлено)</string>
